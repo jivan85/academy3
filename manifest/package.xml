@@ -5,6 +5,10 @@
         <members>*</members>
         <name>CustomObject</name>
     </types>
+    <types> 
+        <members>Contact</members>
+        <name>CustomObject</name>
+    </types>
     <types>
         <members>*</members>
         <name>CustomObjectTranslation</name>
