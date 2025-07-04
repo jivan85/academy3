@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Owner__c</fullName>
+    <label>Vehicle Owner</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Contact.Driver_License__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Vehicles</relationshipLabel>
+    <relationshipName>Vehicles</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
