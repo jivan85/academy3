@@ -2,31 +2,24 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
    
     <types> 
-        <members>Documantation__c</members>
-        <members>Vehicle__c</members>
+        <members>*</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Documantation__c-en_US</members>
-        <members>Vehicle__c-en_US</members>
+        <members>*</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-    <members>Vehicle__c-Vehicle__c Layout</members>
-    <members>Contact-Contact Layout</members>
+    <members>*</members>
     <name>Layout</name>
      </types>
     <types>
-    <members>View encrypted data</members>
+    <members>View_encrypted_data</members>
     <name>PermissionSet</name>
 </types>
     <types>
         <members>*</members>
         <name>ValidationRule</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StandardValueSet</name>
     </types>
     <version>64.0</version>
 </Package>
